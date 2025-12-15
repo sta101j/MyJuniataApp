@@ -110,12 +110,29 @@
         <activity android:name=".ClubsOrganizationsActivity" android:exported="false" />
 
         <!-- ========================= -->
-        <!-- STUDENT SERVICES -->
+        <!-- DIVERSITY -->
         <!-- ========================= -->
         <activity android:name=".StudentSupportServicesActivity" android:exported="false" />
         <activity android:name=".MulticulturalAffairsActivity" android:exported="false" />
         <activity android:name=".FamilyResourceActivity" android:exported="false" />
         <activity android:name=".InternationalOfficeActivity" android:exported="false" />
+
+
+        <!-- ========================= -->
+        <!-- STUDENT SERVICES -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".StudentServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TutoringDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoachingDetailActivity"
+            android:exported="false" />
+
+
 
     </application>
 

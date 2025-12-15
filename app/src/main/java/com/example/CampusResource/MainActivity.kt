@@ -99,10 +99,12 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Academics – Coming Soon", Toast.LENGTH_SHORT).show()
         }
 
-        // Student Services – Coming Soon
+
+
         binding.btnStudentServices.setOnClickListener {
-            Toast.makeText(this, "Student Services – Coming Soon", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, StudentServicesActivity::class.java))
         }
+
     }
 
     // =========================
