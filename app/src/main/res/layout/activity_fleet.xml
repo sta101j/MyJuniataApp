@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fleet Vehicle Reservation"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Top Link -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fleet Vehicle Reservation Process"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/jc_blue"
+                android:layout_marginBottom="10dp" />
+
+            <!-- LINKS -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textColor="@color/jc_blue"
+                android:textColorLink="@color/jc_blue"
+                android:text="Reservation Online:\nhttp://services2.juniata.edu/facilities/vehicle-reservations/"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textColor="@color/jc_blue"
+                android:textColorLink="@color/jc_blue"
+                android:text="Vehicle Policy:\nhttps://www.juniata.edu/offices/facilities/media/vehicle-policy-2019.pdf"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textColor="@color/jc_blue"
+                android:textColorLink="@color/jc_blue"
+                android:text="CarShare:\nhttps://www.enterprisecarshare.com/us/en/programs/university/juniata.html\n\nJoin now and receive $35 in driving credits!"
+                android:layout_marginBottom="20dp" />
+
+
+            <!-- FLEET OPTIONS -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Fleet Vehicle Options:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/jc_blue"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="101 – Mini bus (seats driver + 14 passengers)\n102 – Transit Van (seats driver + 11 passengers)\n103 – Eco Van (seats driver + 11 passengers)\n104 – Transit Van (seats driver + 11 passengers)\n105 – Transit Van (seats driver + 11 passengers)\n106 – Silver Ford Fusion (seats 4/5)\n107 – Gold Ford Fusion (seats 4/5)"
+                android:textColor="@color/jc_blue"
+                android:layout_marginBottom="20dp" />
+
+            <!-- CHARGES -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Charges:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/jc_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mini bus &amp; Vans – $92 for 4+ hrs (150 miles included), then $.20/mile.\n$69 for less than 4 hrs (75 miles), then $.20/mile.\n\nCars – $42 for 4+ hrs, $32 for less than 4 hrs, unlimited mileage."
+                android:textColor="@color/jc_blue"
+                android:layout_marginBottom="20dp" />
+
+            <!-- CHANGES -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Changes to Reservation:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/jc_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Communicate changes with Transportation Office.\n• 24-hour business cancellation policy.\n• Fill gas before returning.\n• Vehicles must be returned clean (fees apply).\n• After 5pm, drop packet in deposit slot or return by 8am next day."
+                android:textColor="@color/jc_blue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

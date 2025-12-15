@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Careers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- POE & CAREER EXPLORATION -->
+            <LinearLayout
+                android:id="@+id/blockPoeCareer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/jc_card_outline">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="POE and Career Exploration"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Career Development helps students identify strengths and explore career paths through hands-on connections."
+                    android:textSize="14sp"
+                    android:textColor="@color/jc_blue"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- INTERNSHIPS -->
+            <LinearLayout
+                android:id="@+id/blockInternships"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/jc_card_outline">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Internships"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Career Development manages the internship approval and registration process, and provides internship search strategies."
+                    android:textSize="14sp"
+                    android:textColor="@color/jc_blue"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- JOB SEARCH & GRAD SCHOOL -->
+            <LinearLayout
+                android:id="@+id/blockJobSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/jc_card_outline">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Job Search and Graduate School"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resume support, job search strategies, mock interviews, graduate school guidance, and networking opportunities."
+                    android:textSize="14sp"
+                    android:textColor="@color/jc_blue"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- CAMPUS EMPLOYMENT -->
+            <LinearLayout
+                android:id="@+id/blockCampusEmployment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/jc_card_outline">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus Employment"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Centralized on-campus job listings, professional development, and career readiness support."
+                    android:textSize="14sp"
+                    android:textColor="@color/jc_blue"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

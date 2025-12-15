@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Finances"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Tuition & Financial Aid -->
+            <LinearLayout
+                android:id="@+id/blockTuition"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tuition &amp; Financial Aid"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Bursar -->
+            <LinearLayout
+                android:id="@+id/blockBursar"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bursar"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Scholarships & Aid -->
+            <LinearLayout
+                android:id="@+id/blockScholarships"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scholarships &amp; Aid"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

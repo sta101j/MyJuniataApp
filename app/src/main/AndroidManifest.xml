@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- REQUIRED PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyJuniataApp">
+
+        <!-- GOOGLE MAPS API KEY -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="kjdfhdsfgisdfksdhgfskfsihfgsdhfsdi" />
+
+        <!-- ========================= -->
+        <!-- LAUNCHER ACTIVITY (NO SYSTEM SPLASH) -->
+        <!-- ========================= -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyJuniataApp">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- ========================= -->
+        <!-- FOOD -->
+        <!-- ========================= -->
+        <activity android:name=".FoodActivity" android:exported="false" />
+        <activity android:name=".CafeDetailActivity" android:exported="false" />
+        <activity android:name=".BakerSectionsActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- BUILDINGS -->
+        <!-- ========================= -->
+        <activity android:name=".BuildingListActivity" android:exported="false" />
+        <activity android:name=".BuildingDetailActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- ACCESSIBILITY -->
+        <!-- ========================= -->
+        <activity android:name=".AccessibilityActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- FLEET -->
+        <!-- ========================= -->
+        <activity android:name=".FleetActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- HEALTH -->
+        <!-- ========================= -->
+        <activity android:name=".HealthActivity" android:exported="false" />
+        <activity android:name=".KennedyActivity" android:exported="false" />
+        <activity android:name=".GlaeserActivity" android:exported="false" />
+        <activity android:name=".BroadTopActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- ATHLETICS -->
+        <!-- ========================= -->
+        <activity android:name=".AthleticsActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- DINING -->
+        <!-- ========================= -->
+        <activity android:name=".SpoonForkActivity" android:exported="false" />
+        <activity android:name=".V2CafeActivity" android:exported="false" />
+        <activity android:name=".CleanPlateCafeActivity" android:exported="false" />
+        <activity android:name=".GrillActivity" android:exported="false" />
+        <activity android:name=".SaladBarActivity" android:exported="false" />
+        <activity android:name=".OvenCafeActivity" android:exported="false" />
+        <activity android:name=".CafeDeliActivity" android:exported="false" />
+        <activity android:name=".BravoCafeActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- CAREERS -->
+        <!-- ========================= -->
+        <activity android:name=".CareersActivity" android:exported="false" />
+        <activity android:name=".CareerDetailActivity" android:exported="false" />
+        <activity android:name=".CareerDetailInternship" android:exported="false" />
+        <activity android:name=".CareerDetailJSandGSP" android:exported="false" />
+        <activity android:name=".CareerDetailCampusEmp" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- FINANCES -->
+        <!-- ========================= -->
+        <activity android:name=".FinancesActivity" android:exported="false" />
+        <activity android:name=".FinanceDetailScholarships" android:exported="false" />
+        <activity android:name=".FinanceDetailBursar" android:exported="false" />
+        <activity android:name=".FinanceDetailTuitionActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- DIVERSITY & CAMPUS LIFE -->
+        <!-- ========================= -->
+        <activity android:name=".DiversityActivity" android:exported="false" />
+        <activity android:name=".DiversityDetailActivity" android:exported="false" />
+        <activity android:name=".CampusLifeActivity" android:exported="false" />
+        <activity android:name=".ClubsOrganizationsActivity" android:exported="false" />
+
+        <!-- ========================= -->
+        <!-- STUDENT SERVICES -->
+        <!-- ========================= -->
+        <activity android:name=".StudentSupportServicesActivity" android:exported="false" />
+        <activity android:name=".MulticulturalAffairsActivity" android:exported="false" />
+        <activity android:name=".FamilyResourceActivity" android:exported="false" />
+        <activity android:name=".InternationalOfficeActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

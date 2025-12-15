@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Diversity &amp; Inclusion"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- ✅ THIS WAS THE MISSING CLOSE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Campus Life -->
+            <LinearLayout
+                android:id="@+id/blockCampusLife"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus Life (Student Organizations)"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- International Students -->
+            <LinearLayout
+                android:id="@+id/blockInternational"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="International Students &amp; Scholars"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Multicultural Affairs -->
+            <LinearLayout
+                android:id="@+id/blockMulticultural"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Multicultural Affairs"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Student Support -->
+            <LinearLayout
+                android:id="@+id/blockStudentSupport"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student Support Services"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Family Resource Center -->
+            <LinearLayout
+                android:id="@+id/blockFamilyResource"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Family Resource Center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Clubs & Organizations -->
+            <LinearLayout
+                android:id="@+id/blockClubs"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clubs &amp; Organizations"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

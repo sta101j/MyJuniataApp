@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JcButtonLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="JcButtonIcon">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:tint">@color/jc_gold</item>
+    </style>
+
+    <style name="JcButtonText">
+        <item name="android:textColor">@color/jc_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="JcSectionItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/jc_blue</item>
+        <item name="android:background">@drawable/jc_card_outline</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="AppTextLink">
+        <item name="android:textColorLink">#000000</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Campus</string>
+    <string name="app_full_name">Campus Resources</string>
+
+
+    <string name="weekly_rotating_note">
+        Weekly rotating items. Items rotate daily and may not be offered every day.\n\n
+        <b>Check ingredient and nutrient details at </b>
+        <b><u>
+            <font color="#000000">
+                <a href="https://juniatadining.nutrislice.com/menus-locations">
+                    juniatadining.nutrislice.com/menus-locations
+                </a>
+            </font>
+        </u></b>
+        <b> or contact the dining representative.</b>
+    </string>
+
+</resources>

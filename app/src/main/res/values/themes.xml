@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================= -->
+    <!-- Main App Theme ONLY -->
+    <!-- ========================= -->
+    <style name="Theme.MyJuniataApp"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/jc_blue</item>
+        <item name="colorPrimaryVariant">@color/jc_blue</item>
+        <item name="colorOnPrimary">@color/jc_gold</item>
+
+        <item name="android:statusBarColor">@color/jc_blue</item>
+
+        <!-- 🔥 CRITICAL: hides default white/icon launch screen -->
+        <item name="android:windowBackground">@color/jc_blue</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="Baker Refectory"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Spoon & Fork -->
+            <TextView
+                android:id="@+id/sectionSpoonFork"
+                style="@style/JcSectionItem"
+                android:text="Spoon &amp; Fork"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground" />
+
+            <!-- Other sections (future-ready) -->
+            <TextView
+                android:id="@+id/sectionV2Cafe"
+                style="@style/JcSectionItem"
+                android:text="V2" />
+
+            <TextView
+                android:id="@+id/sectionCleanPlate"
+                style="@style/JcSectionItem"
+                android:text="Clean Plate" />
+
+            <TextView
+                android:id="@+id/sectionGrill"
+                style="@style/JcSectionItem"
+                android:text="Grill" />
+
+            <TextView
+                android:id="@+id/sectionSaladBar"
+                style="@style/JcSectionItem"
+                android:text="Salad Bar" />
+
+            <TextView
+                android:id="@+id/sectionOven"
+                style="@style/JcSectionItem"
+                android:text="Oven" />
+
+            <TextView
+                android:id="@+id/sectionDeli"
+                style="@style/JcSectionItem"
+                android:text="Deli" />
+
+            <TextView
+                android:id="@+id/sectionBravo"
+                style="@style/JcSectionItem"
+                android:text="Bravo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

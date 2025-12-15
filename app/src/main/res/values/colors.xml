@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Official Juniata Colors -->
+    <color name="jc_blue">#1B365D</color>
+    <color name="jc_blue_light">#3E5C8A</color>
+    <color name="jc_blue_glass">#B36F8FB5</color>
+
+    <color name="jc_gold">#A89968</color>
+    <color name="jc_gold_light">#C1B889</color>
+    <color name="splash_background">#1A285A</color> <!-- Juniata Blue -->
+
+
+    <!-- Neutrals -->
+    <color name="jc_light_bg">#F5F5F5</color>
+    <color name="jc_card_bg">#FFFFFF</color>
+    <color name="jc_search_bg">#EFEFEF</color>
+
+    <!-- Text Colors -->
+    <color name="jc_text_dark">#1B365D</color>
+    <color name="jc_text_grey">#66000000</color>
+    <color name="jc_dark_text">#0F1F33</color>
+
+</resources>
