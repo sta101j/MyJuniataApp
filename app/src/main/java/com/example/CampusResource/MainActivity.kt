@@ -96,8 +96,9 @@ class MainActivity : AppCompatActivity() {
 
         // Academics – Coming Soon
         binding.btnAcademics.setOnClickListener {
-            Toast.makeText(this, "Academics – Coming Soon", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, AcademicsActivity::class.java))
         }
+
 
 
 

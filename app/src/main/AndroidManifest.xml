@@ -132,6 +132,33 @@
             android:name=".CoachingDetailActivity"
             android:exported="false" />
 
+        <!-- ========================= -->
+        <!-- Academics -->
+        <!-- ========================= -->
+
+        <activity
+            android:name=".AcademicsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProvostActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WritingCenterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AcademicResourcesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CollegeAdvisingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProgramsActivity"
+            android:exported="false" />
 
 
     </application>

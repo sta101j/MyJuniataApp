@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jc_light_bg">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/jc_blue">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/jc_gold"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Academics"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/jc_gold" />
+    </RelativeLayout>
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- College Advising -->
+            <LinearLayout
+                android:id="@+id/blockCollegeAdvising"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="College Advising"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Writing Center -->
+            <LinearLayout
+                android:id="@+id/blockWritingCenter"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Writing Center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Programs -->
+            <LinearLayout
+                android:id="@+id/blockPrograms"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Programs"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Provost -->
+            <LinearLayout
+                android:id="@+id/blockProvost"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Provost"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+            <!-- Academic Resources (optional / future) -->
+            <LinearLayout
+                android:id="@+id/blockAcademicResources"
+                style="@style/JcSectionItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Academic Resources"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/jc_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
